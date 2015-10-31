@@ -24,7 +24,7 @@ from tester import test_classifier, dump_classifier_and_data
 # features_list = ['poi','salary'] # You will need to use more features
 
 features_list = ['poi', 'bonus', 'deferral_payments', 'deferred_income', 'director_fees',
-                 'exercised_stock_options', 'expenses', 'from_messages',
+                 'exercised_stock_options', 'expenses', 'from_messages', 'loan_advances',
                  'from_poi_to_this_person', 'from_this_person_to_poi',
                  'long_term_incentive', 'other', 'restricted_stock',
                  'restricted_stock_deferred', 'salary', 'shared_receipt_with_poi',

@@ -225,7 +225,7 @@ Original dataset and starter's code can be downloaded from <a href="https://gith
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -266,7 +266,7 @@ Original dataset and starter's code can be downloaded from <a href="https://gith
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Load the dataset and convert it to a pandas dataframe</span>
@@ -290,7 +290,7 @@ Original dataset and starter's code can be downloaded from <a href="https://gith
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">df</span><span class="o">.</span><span class="n">shape</span>
@@ -304,7 +304,7 @@ Original dataset and starter's code can be downloaded from <a href="https://gith
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[36]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -319,7 +319,7 @@ Original dataset and starter's code can be downloaded from <a href="https://gith
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">df</span><span class="o">.</span><span class="n">columns</span>
@@ -333,7 +333,7 @@ Original dataset and starter's code can be downloaded from <a href="https://gith
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[37]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -374,7 +374,7 @@ Original dataset and starter's code can be downloaded from <a href="https://gith
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">df</span><span class="p">[</span><span class="s">&quot;poi&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -388,7 +388,7 @@ Original dataset and starter's code can be downloaded from <a href="https://gith
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[38]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[5]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -431,7 +431,7 @@ Name: poi, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span><span class="o">.</span><span class="n">transpose</span><span class="p">()[</span><span class="s">&quot;count&quot;</span><span class="p">]</span><span class="o">/</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -445,7 +445,7 @@ Name: poi, dtype: object</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[39]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[6]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -500,7 +500,7 @@ Name: count, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">rf_dict</span><span class="o">=</span><span class="p">[]</span> <span class="c"># a list of dictionary that stores the results</span>
@@ -523,9 +523,9 @@ Name: count, dtype: object</pre>
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>precision: 0.2852983988355167
-recall: 0.098
-f1: 0.14588760699665054
+<pre>precision: 0.30944625407166126
+recall: 0.095
+f1: 0.14537107880642694
 </pre>
 </div>
 </div>
@@ -556,7 +556,7 @@ As discussed in the mini-project of the course, the dataset includes an entry th
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s">&quot;LOCKHART EUGENE E&quot;</span><span class="p">,:]</span>
@@ -570,7 +570,7 @@ As discussed in the mini-project of the course, the dataset includes an entry th
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[41]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -615,7 +615,7 @@ Name: LOCKHART EUGENE E, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">rows_to_remove</span><span class="o">=</span><span class="p">[</span><span class="s">&quot;TOTAL&quot;</span><span class="p">,</span><span class="s">&quot;LOCKHART EUGENE E&quot;</span><span class="p">]</span>
@@ -638,9 +638,9 @@ Name: LOCKHART EUGENE E, dtype: object</pre>
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>precision: 0.3701492537313433
-recall: 0.124
-f1: 0.18576779026217227
+<pre>precision: 0.3614649681528662
+recall: 0.1135
+f1: 0.17275494672754946
 </pre>
 </div>
 </div>
@@ -664,298 +664,31 @@ f1: 0.18576779026217227
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Selecting-features-manually">Selecting features manually<a class="anchor-link" href="#Selecting-features-manually">&#182;</a></h2><p>First we use <code>describe()</code> to list the basic statistical information of each feature.</p>
-
+<h2 id="Selecting-features-manually">Selecting features manually<a class="anchor-link" href="#Selecting-features-manually">&#182;</a></h2>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">ro_df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">Out[43]:</div>
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>count</th>
-      <th>mean</th>
-      <th>std</th>
-      <th>min</th>
-      <th>25%</th>
-      <th>50%</th>
-      <th>75%</th>
-      <th>max</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>bonus</th>
-      <td>81</td>
-      <td>1201773</td>
-      <td>1441679</td>
-      <td>70000</td>
-      <td>425000</td>
-      <td>750000</td>
-      <td>1200000</td>
-      <td>8000000</td>
-    </tr>
-    <tr>
-      <th>deferral_payments</th>
-      <td>38</td>
-      <td>841602.5</td>
-      <td>1289323</td>
-      <td>-102500</td>
-      <td>79644.5</td>
-      <td>221063.5</td>
-      <td>867211.2</td>
-      <td>6426990</td>
-    </tr>
-    <tr>
-      <th>deferred_income</th>
-      <td>48</td>
-      <td>-581049.8</td>
-      <td>942076.4</td>
-      <td>-3504386</td>
-      <td>-611209.2</td>
-      <td>-151927</td>
-      <td>-37926</td>
-      <td>-833</td>
-    </tr>
-    <tr>
-      <th>director_fees</th>
-      <td>16</td>
-      <td>89822.88</td>
-      <td>41112.7</td>
-      <td>3285</td>
-      <td>83674.5</td>
-      <td>106164.5</td>
-      <td>112815</td>
-      <td>137864</td>
-    </tr>
-    <tr>
-      <th>exercised_stock_options</th>
-      <td>101</td>
-      <td>2959559</td>
-      <td>5499450</td>
-      <td>3285</td>
-      <td>506765</td>
-      <td>1297049</td>
-      <td>2542813</td>
-      <td>3.434838e+07</td>
-    </tr>
-    <tr>
-      <th>expenses</th>
-      <td>94</td>
-      <td>54192.01</td>
-      <td>46108.38</td>
-      <td>148</td>
-      <td>22479</td>
-      <td>46547.5</td>
-      <td>78408.5</td>
-      <td>228763</td>
-    </tr>
-    <tr>
-      <th>from_messages</th>
-      <td>86</td>
-      <td>608.7907</td>
-      <td>1841.034</td>
-      <td>12</td>
-      <td>22.75</td>
-      <td>41</td>
-      <td>145.5</td>
-      <td>14368</td>
-    </tr>
-    <tr>
-      <th>from_poi_to_this_person</th>
-      <td>86</td>
-      <td>64.89535</td>
-      <td>86.97924</td>
-      <td>0</td>
-      <td>10</td>
-      <td>35</td>
-      <td>72.25</td>
-      <td>528</td>
-    </tr>
-    <tr>
-      <th>from_this_person_to_poi</th>
-      <td>86</td>
-      <td>41.23256</td>
-      <td>100.0731</td>
-      <td>0</td>
-      <td>1</td>
-      <td>8</td>
-      <td>24.75</td>
-      <td>609</td>
-    </tr>
-    <tr>
-      <th>loan_advances</th>
-      <td>3</td>
-      <td>2.7975e+07</td>
-      <td>4.638256e+07</td>
-      <td>400000</td>
-      <td>1200000</td>
-      <td>2000000</td>
-      <td>4.17625e+07</td>
-      <td>8.1525e+07</td>
-    </tr>
-    <tr>
-      <th>long_term_incentive</th>
-      <td>65</td>
-      <td>746491.2</td>
-      <td>862917.4</td>
-      <td>69223</td>
-      <td>275000</td>
-      <td>422158</td>
-      <td>831809</td>
-      <td>5145434</td>
-    </tr>
-    <tr>
-      <th>other</th>
-      <td>92</td>
-      <td>465276.7</td>
-      <td>1389719</td>
-      <td>2</td>
-      <td>1209</td>
-      <td>51984.5</td>
-      <td>357577.2</td>
-      <td>1.035973e+07</td>
-    </tr>
-    <tr>
-      <th>poi</th>
-      <td>144</td>
-      <td>0.125</td>
-      <td>0.3318733</td>
-      <td>False</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>True</td>
-    </tr>
-    <tr>
-      <th>restricted_stock</th>
-      <td>109</td>
-      <td>1147424</td>
-      <td>2249770</td>
-      <td>-2604490</td>
-      <td>252055</td>
-      <td>441096</td>
-      <td>985032</td>
-      <td>1.476169e+07</td>
-    </tr>
-    <tr>
-      <th>restricted_stock_deferred</th>
-      <td>17</td>
-      <td>621892.8</td>
-      <td>3845528</td>
-      <td>-1787380</td>
-      <td>-329825</td>
-      <td>-140264</td>
-      <td>-72419</td>
-      <td>1.545629e+07</td>
-    </tr>
-    <tr>
-      <th>salary</th>
-      <td>94</td>
-      <td>284087.5</td>
-      <td>177131.1</td>
-      <td>477</td>
-      <td>211802</td>
-      <td>258741</td>
-      <td>308606.5</td>
-      <td>1111258</td>
-    </tr>
-    <tr>
-      <th>shared_receipt_with_poi</th>
-      <td>86</td>
-      <td>1176.465</td>
-      <td>1178.318</td>
-      <td>2</td>
-      <td>249.75</td>
-      <td>740.5</td>
-      <td>1888.25</td>
-      <td>5521</td>
-    </tr>
-    <tr>
-      <th>to_messages</th>
-      <td>86</td>
-      <td>2073.86</td>
-      <td>2582.701</td>
-      <td>57</td>
-      <td>541.25</td>
-      <td>1211</td>
-      <td>2634.75</td>
-      <td>15149</td>
-    </tr>
-    <tr>
-      <th>total_payments</th>
-      <td>124</td>
-      <td>2623421</td>
-      <td>9488106</td>
-      <td>148</td>
-      <td>386380.2</td>
-      <td>1100246</td>
-      <td>2084663</td>
-      <td>1.035598e+08</td>
-    </tr>
-    <tr>
-      <th>total_stock_value</th>
-      <td>125</td>
-      <td>3352073</td>
-      <td>6532883</td>
-      <td>-44093</td>
-      <td>494136</td>
-      <td>1095040</td>
-      <td>2606763</td>
-      <td>4.911008e+07</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>From the above result, we noticed that only three entries of the feature <em>loan_advances</em> has values, it is reasonable to ignore this feature to reduce the variances in the model. The following test shows that leaving out this feature for classification increase the overall precision, recall and f1 scores a little bit.</p>
+<p>We noticed that the features <code>total_payments</code> and <code>total_stock_value</code> are the sum of the features related to payments and stock values, respectively. These two features can be removed if we use linear regression or similar algorithms, since they can cause multicollinearity. However, we will not remove these two features because we will run univariate feature selection and principle component analysis to select important features for training our model.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">sf1_df</span><span class="o">=</span><span class="n">ro_df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s">&quot;loan_advances&quot;</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">sf1_df</span><span class="o">=</span><span class="n">ro_df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s">&quot;total_payments&quot;</span><span class="p">,</span><span class="s">&quot;total_stock_value&quot;</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">sf1_df</span><span class="o">=</span><span class="n">sf1_df</span><span class="o">.</span><span class="n">convert_objects</span><span class="p">(</span><span class="n">convert_numeric</span><span class="o">=</span><span class="k">True</span><span class="p">)</span>
 <span class="n">sf1_df</span><span class="o">=</span><span class="n">ro_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 <span class="n">X</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">_</span><span class="o">=</span><span class="n">extract_df</span><span class="p">(</span><span class="n">sf1_df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
 <span class="n">score</span><span class="o">=</span><span class="n">calc_score</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">rf</span><span class="p">)</span>
-<span class="n">score_dict</span><span class="o">=</span><span class="p">{</span><span class="s">&quot;data&quot;</span><span class="p">:</span><span class="s">&quot;removing loan_advances&quot;</span><span class="p">,</span><span class="s">&quot;dataframe&quot;</span><span class="p">:</span><span class="s">&quot;sf1_df&quot;</span><span class="p">}</span>
+<span class="n">score_dict</span><span class="o">=</span><span class="p">{</span><span class="s">&quot;data&quot;</span><span class="p">:</span><span class="s">&quot;removing totals&quot;</span><span class="p">,</span><span class="s">&quot;dataframe&quot;</span><span class="p">:</span><span class="s">&quot;sf1_df&quot;</span><span class="p">}</span>
 <span class="n">score_dict</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">score</span><span class="p">)</span>
 <span class="n">rf_dict</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score_dict</span><span class="p">)</span>
 </pre></div>
@@ -970,9 +703,9 @@ f1: 0.18576779026217227
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>precision: 0.363914373088685
-recall: 0.119
-f1: 0.17935192162773173
+<pre>precision: 0.37925445705024313
+recall: 0.117
+f1: 0.1788307222009935
 </pre>
 </div>
 </div>
@@ -1002,7 +735,7 @@ f1: 0.17935192162773173
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">f</span><span class="o">=</span><span class="s">&quot;exercised_stock_options&quot;</span>
@@ -1017,11 +750,11 @@ f1: 0.17935192162773173
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[45]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x10eba79b0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x10b009320&gt;</pre>
 </div>
 
 </div>
@@ -1150,7 +883,7 @@ rkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">np</span><span class="o">.</span><span class="n">log10</span><span class="p">(</span><span class="n">sf1_df</span><span class="p">[</span><span class="n">f</span><span class="p">])</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">bins</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
@@ -1164,11 +897,11 @@ rkJggg==
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[46]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[12]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x11032b470&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x10b0d17b8&gt;</pre>
 </div>
 
 </div>
@@ -1304,7 +1037,7 @@ AElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">pkl_file</span><span class="o">=</span><span class="s">&quot;./data/final_project_dataset.pkl&quot;</span>
@@ -1348,7 +1081,7 @@ AElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">X</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">_</span><span class="o">=</span><span class="n">extract_df</span><span class="p">(</span><span class="n">sf2_df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
@@ -1368,9 +1101,9 @@ AElFTkSuQmCC
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>precision: 0.3885630498533724
-recall: 0.1325
-f1: 0.197613721103654
+<pre>precision: 0.3583208395802099
+recall: 0.1195
+f1: 0.1792275965504312
 </pre>
 </div>
 </div>
@@ -1392,7 +1125,7 @@ f1: 0.197613721103654
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">rf_score_df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">rf_dict</span><span class="p">)</span>
@@ -1407,7 +1140,7 @@ f1: 0.197613721103654
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[49]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[15]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -1427,33 +1160,33 @@ f1: 0.197613721103654
       <th>0</th>
       <td>raw</td>
       <td>df</td>
-      <td>0.145888</td>
-      <td>0.285298</td>
-      <td>0.0980</td>
+      <td>0.145371</td>
+      <td>0.309446</td>
+      <td>0.0950</td>
     </tr>
     <tr>
       <th>1</th>
       <td>removing outlier manually</td>
       <td>ro_df</td>
-      <td>0.185768</td>
-      <td>0.370149</td>
-      <td>0.1240</td>
+      <td>0.172755</td>
+      <td>0.361465</td>
+      <td>0.1135</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>removing loan_advances</td>
+      <td>removing totals</td>
       <td>sf1_df</td>
-      <td>0.179352</td>
-      <td>0.363914</td>
-      <td>0.1190</td>
+      <td>0.178831</td>
+      <td>0.379254</td>
+      <td>0.1170</td>
     </tr>
     <tr>
       <th>3</th>
       <td>adding new features</td>
       <td>sf2_df</td>
-      <td>0.197614</td>
-      <td>0.388563</td>
-      <td>0.1325</td>
+      <td>0.179228</td>
+      <td>0.358321</td>
+      <td>0.1195</td>
     </tr>
   </tbody>
 </table>
@@ -1487,7 +1220,8 @@ f1: 0.197613721103654
 <li><code>StandardScaler</code>: Rescle the data if it is necessary for the classifier.</li>
 <li><code>ChoiceOfClassifier</code>: The main algorithm for calssification.</li>
 </ol>
-<h3 id="Tuning-the-model-with-cross-validation">Tuning the model with cross validation<a class="anchor-link" href="#Tuning-the-model-with-cross-validation">&#182;</a></h3><p>We also set up a <code>GridSearchCV</code> class that scans some key parameter to fine tune the model. From those preliminary tests using random forests, we find that the values of <em>precision</em> can easily meet the specification but the values of <em>recall</em> are low. Thus we will set our <code>GridSearchCV</code> objects to optimize <em>recall</em>.</p>
+<h3 id="Tuning-the-model-with-cross-validation">Tuning the model with cross validation<a class="anchor-link" href="#Tuning-the-model-with-cross-validation">&#182;</a></h3><p>The classification algorithms often have parameters that needs to be chosen by the user to optimize the results. Choosing these parameters often faces the trade-offs between the bias and variance of the classifications, or between the accuracy and computational cost. However, we often do not know what would be the best parameters for the algorithms and the given dataset. The only way to optimize these parameters is through parameter searching. To do this, we select a range of parameter set, run the algorithms with each parameter set and compare the final results.</p>
+<p>We set up a <code>GridSearchCV</code> class that scans some key parameter to fine tune the model. From those preliminary tests using random forests, we find that the values of <em>precision</em> can easily meet the specification but the values of <em>recall</em> are low. Thus we will set our <code>GridSearchCV</code> objects to optimize <em>recall</em>.</p>
 <h3 id="LinearSVC">LinearSVC<a class="anchor-link" href="#LinearSVC">&#182;</a></h3><p>First we use linear support vector machine (<code>LinearSVC</code>) to do the classification on both the dataset that with and without feature engineering. The parameters that we choose to optimize are C value of <code>LinearSVC</code> and the number of components selected by <code>SelectKBest</code> and <code>pca</code>. C value is a regularization parameter. Larger C gives lower bias but higher variance, whereas smaller C gives higher bias but lower variance on the classification results.</p>
 
 </div>
@@ -1504,7 +1238,7 @@ f1: 0.197613721103654
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">clf_dict</span><span class="o">=</span><span class="p">[]</span> <span class="c"># A list that stores the test conditions and scores</span>
@@ -1540,9 +1274,9 @@ f1: 0.197613721103654
 <pre>Pipeline(steps=[(&apos;fsl&apos;, FeatureSel(k_best=1, pca_comp=0)), (&apos;sd&apos;, StandardScaler(copy=True, with_mean=True, with_std=True)), (&apos;lvc&apos;, LinearSVC(C=9.9999999999999995e-07, class_weight=None, dual=True,
      fit_intercept=True, intercept_scaling=1, loss=&apos;l2&apos;, multi_class=&apos;ovr&apos;,
      penalty=&apos;l2&apos;, random_state=None, tol=0.0001, verbose=0))])
-precision: 0.37244897959183676
-recall: 0.3285
-f1: 0.34909670563230605
+precision: 0.36947791164658633
+recall: 0.322
+f1: 0.3441090034731499
 </pre>
 </div>
 </div>
@@ -1562,7 +1296,7 @@ f1: 0.34909670563230605
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">fill_test_df</span><span class="o">=</span><span class="n">sf1_df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -1594,9 +1328,9 @@ f1: 0.34909670563230605
 <pre>Pipeline(steps=[(&apos;sd&apos;, StandardScaler(copy=True, with_mean=True, with_std=True)), (&apos;lvc&apos;, LinearSVC(C=9.9999999999999995e-07, class_weight=None, dual=True,
      fit_intercept=True, intercept_scaling=1, loss=&apos;l2&apos;, multi_class=&apos;ovr&apos;,
      penalty=&apos;l2&apos;, random_state=None, tol=0.0001, verbose=0))])
-precision: 0.2608843537414966
-recall: 0.3835
-f1: 0.3105263157894737
+precision: 0.26549295774647885
+recall: 0.377
+f1: 0.31157024793388427
 </pre>
 </div>
 </div>
@@ -1616,7 +1350,7 @@ f1: 0.3105263157894737
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">fill_test_df</span><span class="o">=</span><span class="n">sf2_df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -1652,9 +1386,9 @@ f1: 0.3105263157894737
 <pre>Pipeline(steps=[(&apos;fsl&apos;, FeatureSel(k_best=1, pca_comp=0)), (&apos;sd&apos;, StandardScaler(copy=True, with_mean=True, with_std=True)), (&apos;lvc&apos;, LinearSVC(C=9.9999999999999995e-07, class_weight=None, dual=True,
      fit_intercept=True, intercept_scaling=1, loss=&apos;l2&apos;, multi_class=&apos;ovr&apos;,
      penalty=&apos;l2&apos;, random_state=None, tol=0.0001, verbose=0))])
-precision: 0.3839378238341969
-recall: 0.3705
-f1: 0.37709923664122136
+precision: 0.3838693210821848
+recall: 0.376
+f1: 0.379893912604193
 </pre>
 </div>
 </div>
@@ -1674,7 +1408,7 @@ f1: 0.37709923664122136
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">fill_test_df</span><span class="o">=</span><span class="n">sf2_df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -1706,9 +1440,9 @@ f1: 0.37709923664122136
 <pre>Pipeline(steps=[(&apos;sd&apos;, StandardScaler(copy=True, with_mean=True, with_std=True)), (&apos;lvc&apos;, LinearSVC(C=9.9999999999999995e-07, class_weight=None, dual=True,
      fit_intercept=True, intercept_scaling=1, loss=&apos;l2&apos;, multi_class=&apos;ovr&apos;,
      penalty=&apos;l2&apos;, random_state=None, tol=0.0001, verbose=0))])
-precision: 0.2916147409649279
-recall: 0.819
-f1: 0.4300905868452147
+precision: 0.29615861214374223
+recall: 0.8365
+f1: 0.4374428029807818
 </pre>
 </div>
 </div>
@@ -1739,7 +1473,7 @@ f1: 0.4300905868452147
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">fill_test_df</span><span class="o">=</span><span class="n">sf2_df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -1774,9 +1508,9 @@ f1: 0.4300905868452147
 <pre>Pipeline(steps=[(&apos;fsl&apos;, FeatureSel(k_best=1, pca_comp=0)), (&apos;sd&apos;, StandardScaler(copy=True, with_mean=True, with_std=True)), (&apos;rf&apos;, AdaBoostClassifier(algorithm=&apos;SAMME.R&apos;, base_estimator=None,
           learning_rate=9.9999999999999995e-07, n_estimators=50,
           random_state=None))])
-precision: 0.21359223300970873
-recall: 0.066
-f1: 0.10084033613445378
+precision: 0.23734729493891799
+recall: 0.068
+f1: 0.10571317528177225
 </pre>
 </div>
 </div>
@@ -1796,7 +1530,7 @@ f1: 0.10084033613445378
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">fill_test_df</span><span class="o">=</span><span class="n">sf2_df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -1829,9 +1563,9 @@ f1: 0.10084033613445378
 <pre>Pipeline(steps=[(&apos;sd&apos;, StandardScaler(copy=True, with_mean=True, with_std=True)), (&apos;rf&apos;, AdaBoostClassifier(algorithm=&apos;SAMME.R&apos;, base_estimator=None,
           learning_rate=0.031622776601683791, n_estimators=50,
           random_state=None))])
-precision: 0.5714285714285714
-recall: 0.106
-f1: 0.17882749894559258
+precision: 0.5613079019073569
+recall: 0.103
+f1: 0.17405999155048585
 </pre>
 </div>
 </div>
@@ -1851,7 +1585,7 @@ f1: 0.17882749894559258
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">fill_test_df</span><span class="o">=</span><span class="n">sf1_df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -1882,10 +1616,11 @@ f1: 0.17882749894559258
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Pipeline(steps=[(&apos;sd&apos;, StandardScaler(copy=True, with_mean=True, with_std=True)), (&apos;rf&apos;, AdaBoostClassifier(algorithm=&apos;SAMME.R&apos;, base_estimator=None,
-          learning_rate=1.0, n_estimators=50, random_state=None))])
-precision: 0.39927007299270073
-recall: 0.2735
-f1: 0.32462908011869435
+          learning_rate=0.031622776601683791, n_estimators=50,
+          random_state=None))])
+precision: 0.5750708215297451
+recall: 0.1015
+f1: 0.17254568635784107
 </pre>
 </div>
 </div>
@@ -1905,7 +1640,7 @@ f1: 0.32462908011869435
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">fill_test_df</span><span class="o">=</span><span class="n">sf1_df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -1939,9 +1674,9 @@ f1: 0.32462908011869435
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Pipeline(steps=[(&apos;fsl&apos;, FeatureSel(k_best=1, pca_comp=0)), (&apos;sd&apos;, StandardScaler(copy=True, with_mean=True, with_std=True)), (&apos;rf&apos;, AdaBoostClassifier(algorithm=&apos;SAMME.R&apos;, base_estimator=None,
           learning_rate=1.0, n_estimators=50, random_state=None))])
-precision: 0.30787781350482313
-recall: 0.1915
-f1: 0.23612823674475955
+precision: 0.31329113924050633
+recall: 0.198
+f1: 0.2426470588235294
 </pre>
 </div>
 </div>
@@ -1962,7 +1697,7 @@ f1: 0.23612823674475955
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">clf_df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">clf_dict</span><span class="p">)</span>
@@ -1977,7 +1712,7 @@ f1: 0.23612823674475955
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[58]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[24]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -1999,81 +1734,81 @@ f1: 0.23612823674475955
       <th>0</th>
       <td>LinearSVC</td>
       <td>sf1_df</td>
-      <td>0.349097</td>
+      <td>0.344109</td>
       <td>False</td>
       <td>True</td>
-      <td>0.372449</td>
-      <td>0.3285</td>
+      <td>0.369478</td>
+      <td>0.3220</td>
     </tr>
     <tr>
       <th>1</th>
       <td>LinearSVC</td>
       <td>sf1_df</td>
-      <td>0.310526</td>
+      <td>0.311570</td>
       <td>False</td>
       <td>False</td>
-      <td>0.260884</td>
-      <td>0.3835</td>
+      <td>0.265493</td>
+      <td>0.3770</td>
     </tr>
     <tr>
       <th>2</th>
       <td>LinearSVC</td>
       <td>sf2_df</td>
-      <td>0.377099</td>
+      <td>0.379894</td>
       <td>True</td>
       <td>True</td>
-      <td>0.383938</td>
-      <td>0.3705</td>
+      <td>0.383869</td>
+      <td>0.3760</td>
     </tr>
     <tr>
       <th>3</th>
       <td>LinearSVC</td>
       <td>sf2_df</td>
-      <td>0.430091</td>
+      <td>0.437443</td>
       <td>True</td>
       <td>False</td>
-      <td>0.291615</td>
-      <td>0.8190</td>
+      <td>0.296159</td>
+      <td>0.8365</td>
     </tr>
     <tr>
       <th>4</th>
       <td>AdaBoost</td>
       <td>sf2_df</td>
-      <td>0.100840</td>
+      <td>0.105713</td>
       <td>True</td>
       <td>True</td>
-      <td>0.213592</td>
-      <td>0.0660</td>
+      <td>0.237347</td>
+      <td>0.0680</td>
     </tr>
     <tr>
       <th>5</th>
       <td>AdaBoost</td>
       <td>sf2_df</td>
-      <td>0.178827</td>
+      <td>0.174060</td>
       <td>True</td>
       <td>False</td>
-      <td>0.571429</td>
-      <td>0.1060</td>
+      <td>0.561308</td>
+      <td>0.1030</td>
     </tr>
     <tr>
       <th>6</th>
       <td>AdaBoost</td>
       <td>sf1_df</td>
-      <td>0.324629</td>
+      <td>0.172546</td>
       <td>False</td>
       <td>False</td>
-      <td>0.399270</td>
-      <td>0.2735</td>
+      <td>0.575071</td>
+      <td>0.1015</td>
     </tr>
     <tr>
       <th>7</th>
       <td>AdaBoost</td>
       <td>sf1_df</td>
-      <td>0.236128</td>
+      <td>0.242647</td>
       <td>False</td>
       <td>True</td>
-      <td>0.307878</td>
-      <td>0.1915</td>
+      <td>0.313291</td>
+      <td>0.1980</td>
     </tr>
   </tbody>
 </table>
@@ -2091,7 +1826,8 @@ f1: 0.23612823674475955
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="More-details-on-the-validation-of-the-models">More details on the validation of the models<a class="anchor-link" href="#More-details-on-the-validation-of-the-models">&#182;</a></h2><p>We implement <code>calc_score()</code> to evaluate the performance of our algorithms. <code>calc_score()</code> runs stratified cross validation for 1000 times. For each run, it takes 10% of the data as the test dataset and the remaining 90% of the data as the training dataset. After the model is fitted using the training set, it tests the model with the test set and calculate the number of true posivies (TP), false positives (FP), false negatives (FN) and true negatives (TN). After these iterations finish, it sums up the TP, FP, FN and TN of all iterations, and then calculate recall, precision and f1 score.</p>
+<h2 id="More-details-on-the-validation-of-the-models">More details on the validation of the models<a class="anchor-link" href="#More-details-on-the-validation-of-the-models">&#182;</a></h2><p>Our goal is to use the model that we trained to predict the <code>poi</code> of other samples in the population. It would be ideal to have another dataset from the population to validate our model and see if it can predict the <code>poi</code> well. Since a sepearate test dataset is not available, we separate the given dataset into two parts, training set and test set. We use training set to train the model and the test set to evaluate the perfromance of an algorithm. This process is called cross-validation.</p>
+<p>We implement <code>calc_score()</code> to perform the cross-validation and evaluate the performances of our algorithms. <code>calc_score()</code> runs stratified cross validation for 1000 times. For each run, it takes 10% of the data as the test dataset and the remaining 90% of the data as the training dataset. After the model is fitted using the training set, it tests the model with the test set and calculate the number of true posivies (TP), false positives (FP), false negatives (FN) and true negatives (TN). After these iterations finish, it sums up the TP, FP, FN and TN of all iterations, and then calculate recall, precision and f1 score.</p>
 <p>We adopt this method instead of averaging each metric such as recall or precision because this dataset is small and the portions of the <code>poi=True</code> is only 10%. Therefore, variations of the scoring metrics between each run would be very large.</p>
 <p>The three metrics we used are defined as below:</p>
 <ul>
