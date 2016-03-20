@@ -1,6 +1,6 @@
 # Indentifying Fraud from Enron Email
 
-The aim of this project to identify person of interest (poi) in Enron scandal from a given dataset. Original dataset and starter's code can be downloaded from this github repository.
+The aim of this project to identify person of interest (poi) in Enron scandal from a given dataset. Original dataset and starter's code can be downloaded from [this github repository](https://github.com/udacity/ud120-projects).
 
 
 ## Entry script for this project:
