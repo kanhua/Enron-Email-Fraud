@@ -12,4 +12,4 @@ The aim of this project to identify person of interest (poi) in Enron scandal fr
 
 Jupyter notebook version: [Identifying Fraud in Enron email.ipynb](./Identifying Fraud in Enron email.ipynb)
 
-html version: [Identifying Fraud in Enron email.html](./Identifying Fraud in Enron email.html)
+html version: [Identifying Fraud in Enron email.html](http://nbviewer.jupyter.org/github/kanhua/Enron-Email-Fraud/blob/master/Identifying%20Fraud%20in%20Enron%20email.ipynb)
